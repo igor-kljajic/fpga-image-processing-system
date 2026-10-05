@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="filter_system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1" LaunchDir="C:/Users/Igor/Desktop/dvs25_projekat_g12/hardware/DVS_projekat.runs/filter_system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="filter_system_axi_mem_intercon_upgraded_ipi_imp_xbar_0_synth_1" LaunchDir="C:/Users/Igor/Desktop/dvs25_projekat_g12/hardware/DVS_projekat.runs/filter_system_axi_mem_intercon_upgraded_ipi_imp_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Igor/Desktop/dvs25_projekat_g12/hardware/DVS_projekat.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="filter_system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1"/>
+		<Parent Id="filter_system_axi_mem_intercon_upgraded_ipi_imp_xbar_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/Igor/Desktop/dvs25_projekat_g12/hardware/DVS_projekat.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="filter_system_ps7_0_axi_periph_upgraded_ipi_imp_xbar_0_synth_1"/>
+		<Parent Id="filter_system_axi_mem_intercon_upgraded_ipi_imp_xbar_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+		<Parameter Name="general.usePosixSpawnForFork" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

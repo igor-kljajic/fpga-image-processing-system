@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jul 24 20:27:13 2026
+# Process ID         : 22820
+# Current directory  : C:/Users/Igor/Desktop/dvs25_projekat_g3/hardware/dvs_proj.runs/synth_1
+# Command line       : vivado.exe -log image_filter_system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source image_filter_system_wrapper.tcl
+# Log file           : C:/Users/Igor/Desktop/dvs25_projekat_g3/hardware/dvs_proj.runs/synth_1/image_filter_system_wrapper.vds
+# Journal file       : C:/Users/Igor/Desktop/dvs25_projekat_g3/hardware/dvs_proj.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-UQDEJSN
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 5700U with Radeon Graphics         
+# CPU Frequency      : 1797 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 14870 MB
+# Swap memory        : 8417 MB
+# Total Virtual      : 23287 MB
+# Available Virtual  : 3286 MB
+#-----------------------------------------------------------
+source image_filter_system_wrapper.tcl -notrace

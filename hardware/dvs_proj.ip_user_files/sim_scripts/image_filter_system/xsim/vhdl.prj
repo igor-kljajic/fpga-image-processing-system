@@ -1,0 +1,9 @@
+vhdl work  \
+"../../../../DVS_projekat_novi_dopuna_timer.gen/sources_1/bd/filter_system/ip/filter_system_axi_dma_0_0_1/sim/filter_system_axi_dma_0_0.vhd" \
+"../../../../DVS_projekat_novi_dopuna_timer.gen/sources_1/bd/filter_system/ip/filter_system_rst_ps7_0_100M_0_1/sim/filter_system_rst_ps7_0_100M_0.vhd" \
+"../../../../DVS_projekat_novi_dopuna_timer.gen/sources_1/bd/filter_system/ip/filter_system_axi_timer_0_0/sim/filter_system_axi_timer_0_0.vhd" \
+"../../../../DVS_projekat_novi_dopuna_timer.gen/sources_1/bd/filter_system/ip/image_filter_system_acc_image_filter_0_0/sim/image_filter_system_acc_image_filter_0_0.vhd" \
+"../../../../DVS_projekat_novi_dopuna_timer.gen/sources_1/bd/filter_system/sim/image_filter_system.vhd" \
+
+# Do not sort compile order
+nosort
